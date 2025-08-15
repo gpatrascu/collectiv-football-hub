@@ -23,5 +23,21 @@
         }
       }
     }
+  },
+  "routes": [
+    {
+      "route": "/.auth/login/*/callback",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["anonymous"]
+    }
+  ],
+  "responseOverrides": {
+    "401": {
+      "statusCode": 302,
+      "redirect": "/.auth/login/google"
+    }
   }
 }
