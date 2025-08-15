@@ -30,7 +30,7 @@
       "allowedRoles": ["anonymous"]
     },
     {
-      "route": "/api/*",
+      "route": "/api/roles",
       "allowedRoles": ["anonymous"]
     }
   ],
