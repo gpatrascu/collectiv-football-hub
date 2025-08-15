@@ -2,7 +2,9 @@
     "navigationFallback": {
         "rewrite": "/index.html",
         "exclude": [
-            "/api/*"
+            "/api/*",
+            "/.auth/*",
+            "/favicon.ico"
         ]
     },
     "auth": {
