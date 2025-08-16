@@ -3,8 +3,7 @@
     "rewrite": "/index.html",
     "exclude": [
       "/api/*",
-      "/.auth/*",
-      "/favicon.ico"
+      "/.auth/*"
     ]
   },
   "auth": {
