@@ -25,7 +25,11 @@
   },
   "routes": [
     {
-      "route": "/.auth/login/*/callback",
+      "route": "/.auth/login/google/callback",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/.auth/login/facebook/callback",
       "allowedRoles": ["anonymous"]
     },
     {
