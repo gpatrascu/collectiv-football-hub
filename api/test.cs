@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 public static class TestApi
 {
     [FunctionName("test")]
-    public static async Task<IActionResult> Run(
+    public static IActionResult Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
         ILogger log)
     {

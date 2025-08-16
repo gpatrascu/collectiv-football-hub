@@ -13,7 +13,7 @@ using System.Text.Json;
 public static class RolesApi
 {
     [FunctionName("roles")]
-    public static async Task<IActionResult> Run(
+    public static IActionResult Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
         ILogger log)
     {

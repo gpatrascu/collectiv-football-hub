@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/g.patrascu/repos/learning/collectiv-football-hub/api/api.csproj": {}
+  },
+  "projects": {
+    "/Users/g.patrascu/repos/learning/collectiv-football-hub/api/api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/g.patrascu/repos/learning/collectiv-football-hub/api/api.csproj",
+        "projectName": "api",
+        "projectPath": "/Users/g.patrascu/repos/learning/collectiv-football-hub/api/api.csproj",
+        "packagesPath": "/Users/g.patrascu/devtools/.nuget/packages",
+        "outputPath": "/Users/g.patrascu/repos/learning/collectiv-football-hub/api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/g.patrascu/build/sdks"
+        ],
+        "configFilePaths": [
+          "/Users/g.patrascu/NuGet.Config",
+          "/Users/g.patrascu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://filer-nuget.prod.crto.in/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/g.patrascu/devtools/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
