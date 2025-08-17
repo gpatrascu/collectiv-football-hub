@@ -24,24 +24,8 @@
       }
     }
   },
-  "routes": [
-    {
-      "route": "/.auth/login/google/callback",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/.auth/login/facebook/callback",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/api/roles",
-      "allowedRoles": ["anonymous"]
-    }
-  ],
+  "routes": [],
   "responseOverrides": {
-    "401": {
-      "statusCode": 302,
-      "redirect": "/.auth/login/google"
-    }
+
   }
 }
