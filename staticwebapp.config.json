@@ -35,7 +35,11 @@
     },
     {
       "route": "/api/test",
-      "allowedRoles": ["anonymous"]
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
+    {
+      "route": "/api/roles",
+      "allowedRoles": ["anonymous", "authenticated"]
     }
   ],
   "responseOverrides": {
