@@ -1,4 +1,8 @@
-using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
@@ -48,8 +52,7 @@ public static class TestApi
       catch (Exception ex)
       {
         log.LogError($"Error processing client principal: {ex.Message}");
-        return new OkObjectResult(new { roles = new string[0] });
+        return new OkObjectResult(new { roles = Array.Empty<string>() });
       }
-    }
     }
 }
