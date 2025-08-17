@@ -27,19 +27,19 @@
   "routes": [
     {
       "route": "/.auth/login/google/callback",
-      "allowedRoles": ["anonymous", "authenticated"]
+      "allowedRoles": ["*"]
     },
     {
       "route": "/.auth/login/facebook/callback",
-      "allowedRoles": ["anonymous", "authenticated"]
+      "allowedRoles": ["*"]
     },
     {
       "route": "/api/test",
-      "allowedRoles": ["anonymous", "authenticated"]
+      "allowedRoles": ["*"]
     },
     {
       "route": "/api/roles",
-      "allowedRoles": ["anonymous", "authenticated"]
+      "allowedRoles": ["*"]
     }
   ],
   "responseOverrides": {
